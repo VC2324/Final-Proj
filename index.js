@@ -17,13 +17,7 @@ const createOnHoverElement = (anything, name, conference, lastWon) => {
         placedInfo.append(name, conference, lastWon)
 
 
-        //***need to have the info in it perspective category
-        //create the template
-        const template = {
-            "Name": name,
-            "Conference":conference,
-            "Last Won":lastWon,
-        } 
+    
         
         //run our data throught the template
         //append it to the placedinfo ??
@@ -51,12 +45,9 @@ const addTeamButtons = () => {
         //decalres onClick
         const onClick = () => {
             // grabs logo
-            const logoContainer = document.querySelector(".logo")
+            const logoContainer = document.querySelector(".logo");
             //creates element "img" in hmtl 
-            const logoPlaced = document.createElement("img")
-            // declares has nodes to logo containers child nodes
-            // const hasNodes = logoContainer.hasChildNodes()
-            // console.log(hasNodes)
+            const logoPlaced = document.createElement("img");
             //if statment if logo container has child nodes remove it specifically the first 1
             if (logoContainer.hasChildNodes()) {
             
@@ -66,7 +57,7 @@ const addTeamButtons = () => {
             logoPlaced.src = team.Logo
             createOnHoverElement(logoPlaced, team.name, team.conference, team.lastWon,)
             // appends logoPlaced to img in html
-            logoContainer.append(logoPlaced)        
+            logoContainer.append(logoPlaced);        
         }
         
         //add event listener to onclick

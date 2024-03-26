@@ -13,18 +13,6 @@ h1 {
   background: linear-gradient(to bottom, #9699A4 0%, #F2F3FC 100%);
 }
   
-/* div` {
-  height: 200px;
-  width: 400px;
- 
-
-  position: fixed;
-  top: 50%;
-  left: 60%;
-  margin-top: -100px;
-  margin-left: -200px;
-  padding-top: 50px;
-} */
 
 content {
   display: flex;
@@ -70,6 +58,7 @@ content {
   height: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
   margin: 0;
   background-color: #DBF9FC;
   /* overflow-wrap: break-word;  */
