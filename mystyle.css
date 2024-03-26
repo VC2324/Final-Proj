@@ -1,0 +1,95 @@
+
+body {
+  background-image: url("assets/wp2389352-american-football-wallpapers.jpg");
+  background-size: cover;
+	
+
+}
+h1 {
+  text-align: center;
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(to bottom, #9699A4 0%, #F2F3FC 100%);
+}
+  
+/* div` {
+  height: 200px;
+  width: 400px;
+ 
+
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  margin-top: -100px;
+  margin-left: -200px;
+  padding-top: 50px;
+} */
+
+content {
+  display: flex;
+}
+.sidenav {
+    color: #FFFFFF;
+    height: 100%;
+    width: 150px;
+    /* position: fixed; */
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color: 	#013369;
+    
+  }
+
+.logo {
+  max-width: 200px; /* set the desired width */
+  max-height: 200px;
+  /* border: 5px solid #1DFFA0;
+  width: 10%;
+  height: 10%;
+  object-fit: cover; */
+  /* display: block; */
+  position:fixed;
+  left: 630px;  
+  
+
+}
+.logo img{
+  width: 250px;
+  height: 250px;
+}
+#teaminfo{
+
+  position: fixed;
+  left: 580px;
+  top: 300px;
+  border: 10px ridge rgba(213,10,10,0.94);
+  width: 320px;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  /* overflow-wrap: break-word;  */
+
+}
+.body-text {
+    margin-left: 150px;
+    font-size: 18px;
+}
+
+  /* this line below makes it so that the image initially is not shown in the 
+  ----need to place it on the bottom right corner
+  */
+#bottomLeftImage {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    right: 0;
+    max-width: 30%;
+    max-height: 30%;
+}
+  /* #bottomLeftImage {
+    position: ;
+  } */

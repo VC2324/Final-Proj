@@ -1,0 +1,65 @@
+{
+    "nflTeams": [
+      {
+          "id": 1,
+          "name": "New York Jets",
+          "conference": "AFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/en/6/6b/New_York_Jets_logo.svg",
+          "lastWon": "1968 (III)"
+          
+      },
+      {
+        "id": 2,
+          "name": "Buffalo Bills",
+          "conference": "AFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/en/7/77/Buffalo_Bills_logo.svg",
+          "lastWon": "Never LOL"
+          
+      },
+      {
+        "id": 3,
+          "name": "Miami Dolphins",
+          "conference": "AFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/en/3/37/Miami_Dolphins_logo.svg",
+          "lastWon": "1972 (VII), 1973 (VIII)"
+          
+      },
+      {
+        "id": 4,
+        "name": "New England Patriots",
+        "conference":"AFC East",
+        "Logo": "https://upload.wikimedia.org/wikipedia/en/b/b9/New_England_Patriots_logo.svg",
+        "lastWon": "2001 (XXXVI), 2003 (XXXVIII), 2004 (XXXIX), 2014 (XLIX), 2016 (LI), 2018 (LIII)"
+        
+      },
+      {
+        "id": 5,
+          "name": "New York Giants",
+          "conference": "NFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/commons/6/60/New_York_Giants_logo.svg",
+          "lastWon": "1986 (XXI), 1990 (XXV), 2007 (XLII), 2011 (XLVI)"
+           },
+      {
+        "id": 6,
+          "name": "Washington Commanders",
+          "conference":"NFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/commons/archive/0/0c/20220202134251%21Washington_Commanders_logo.svg",
+          "lastWon": "1982 (XVII), 1987 (XXII), 1991 (XXVI)"   
+      },
+      {
+        "id": 7,
+          "name": "Dallas Cowboys",
+          "conference": "NFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dallas_Cowboys.svg",
+          "lastWon": "1971 (VI), 1977 (XII), 1992 (XXVII), 1993 (XXVIII), 1995 (XXX)"
+         
+      },
+      {
+        "id": 8,
+          "name": "Philadelphia Eagles",
+          "conference":"NFC East",
+          "Logo": "https://upload.wikimedia.org/wikipedia/en/8/8e/Philadelphia_Eagles_logo.svg",
+          "lastWon": "2017 (LII)"
+      }
+    ]
+  }
