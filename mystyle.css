@@ -34,11 +34,6 @@ content {
 .logo {
   max-width: 200px; /* set the desired width */
   max-height: 200px;
-  /* border: 5px solid #1DFFA0;
-  width: 10%;
-  height: 10%;
-  object-fit: cover; */
-  /* display: block; */
   position:fixed;
   left: 630px;  
   
@@ -61,7 +56,6 @@ content {
   padding-left: 10px;
   margin: 0;
   background-color: #DBF9FC;
-  /* overflow-wrap: break-word;  */
 
 }
 .body-text {

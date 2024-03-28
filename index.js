@@ -10,17 +10,11 @@ const createOnHoverElement = (anything, name, conference, lastWon) => {
         const teamInfo = document.querySelector("#teaminfo")
         // used if statement if teaminfo has a childnode it will remove it specifically teaminfo.children[0]<-which is the first one 
         if (teamInfo.hasChildNodes()) {
-            
             teamInfo.removeChild(teamInfo.children[0]);
           }
         //we need to place info into the p element
         placedInfo.append(name, conference, lastWon)
-
-
-    
-        
-        //run our data throught the template
-        //append it to the placedinfo ??
+        //append it to the placedinfo 
       document.querySelector("#teaminfo").append(placedInfo)
      // give example arguement to what the ode is doing and what you want it to be doing 
     })
@@ -59,8 +53,7 @@ const addTeamButtons = () => {
             // appends logoPlaced to img in html
             logoContainer.append(logoPlaced);        
         }
-        
-        //add event listener to onclick
+         //add event listener to onclick
         teamPlaced.addEventListener("click", onClick)
         
     }))
