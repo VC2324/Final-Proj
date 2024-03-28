@@ -1,27 +1,4 @@
 //code
-
-//created a variable that takes in 4 arguements anything name conference and lastWon
-const createOnHoverElement = (anything, name, conference, lastWon) => {
-// add event listener mouse over to anything which is our team logo generated in the middle of the page
-    anything.addEventListener("mouseover", (event) => {
-        //creates a p element declared as placedinfo
-        const placedInfo = document.createElement("p")
-        //creates a variable  called team info which selects div id  #teaminfo in html
-        const teamInfo = document.querySelector("#teaminfo")
-        // used if statement if teaminfo has a childnode it will remove it specifically teaminfo.children[0]<-which is the first one 
-        if (teamInfo.hasChildNodes()) {
-            teamInfo.removeChild(teamInfo.children[0]);
-          }
-        //we need to place info into the p element
-        placedInfo.append(name, conference, lastWon)
-        //append it to the placedinfo 
-      document.querySelector("#teaminfo").append(placedInfo)
-     // give example arguement to what the ode is doing and what you want it to be doing 
-    })
-}
-
-
-
 const addTeamButtons = () => {
     //grabs the info from api
     fetch("http://localhost:3000/nflTeams")
@@ -44,7 +21,6 @@ const addTeamButtons = () => {
             const logoPlaced = document.createElement("img");
             //if statment if logo container has child nodes remove it specifically the first 1
             if (logoContainer.hasChildNodes()) {
-            
                 logoContainer.removeChild(logoContainer.children[0]);
               }
             //connects source of picture to logoPlaced
@@ -60,6 +36,25 @@ const addTeamButtons = () => {
 
 } 
 
+//created a variable that takes in 4 arguements anything name conference and lastWon
+const createOnHoverElement = (anything, name, conference, lastWon) => {
+// add event listener mouse over to anything which is our team logo generated in the middle of the page
+    anything.addEventListener("mouseover", (event) => {
+        //creates a p element declared as placedinfo
+        const placedInfo = document.createElement("p")
+        //creates a variable  called team info which selects div id  #teaminfo in html
+        const teamInfo = document.querySelector("#teaminfo")
+        // used if statement if teaminfo has a childnode it will remove it specifically teaminfo.children[0]<-which is the first one 
+        if (teamInfo.hasChildNodes()) {
+            teamInfo.removeChild(teamInfo.children[0]);
+          }
+        //we need to place info into the p element
+        placedInfo.append(name, conference, lastWon)
+        //append it to the placedinfo 
+      document.querySelector("#teaminfo").append(placedInfo)
+     // give example arguement to what the ode is doing and what you want it to be doing 
+    })
+}
 
 //envokes our funtion 
 addTeamButtons()
